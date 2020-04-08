@@ -1,0 +1,89 @@
+body {font-family: Arial, Helvetica, sans-serif;
+  margin-left: 150px;
+}
+* {box-sizing: border-box;
+  background-image: url('Plain.jpg');
+
+}
+
+h2{
+/*   margin-left: 50px;
+ */  font-family: verdana;
+  color: silver;
+}
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 60%;
+  margin-bottom: 8px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  background:white;
+ 
+  
+}
+
+.input-field:focus {
+  border: 2px solid green;
+  color: black;
+  background:white;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  background: green;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+  opacity: 0.9;
+}
+
+
+.btn:hover {
+  color: #51452f;
+  background: #aeff75;
+  opacity: 2;
+}
+small{
+margin-left:50px;
+color:red;
+font-size:bold;
+font-family: verdana;
+font-size: small;
+}
+select{
+	color:black;
+	background:white;
+}
+
+a{
+  padding: 5px;
+  font-family: verdana;
+  color:white;
+  text-decoration: none;
+  background-color:silver;
+}
+a:hover{
+  color: blue;
+}
+span{
+
+  color: #12eb32;
+
+}
